@@ -1,0 +1,36 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    
+}
+.sqaure{
+    height:1.5em;
+    width:1.5em;
+    background-color:#000;
+    margin:.5em;
+    animation:rotate infinite  1.5s;
+}
+.one{
+    background:red;
+}
+.two{
+    background:blue
+}
+.three{
+    background:yellow;
+}
+@keyframes rotate{
+    from{
+        transform:rotate(-45deg);
+
+    }
+    to{
+        transform:rotate(45deg);
+    }
+}
