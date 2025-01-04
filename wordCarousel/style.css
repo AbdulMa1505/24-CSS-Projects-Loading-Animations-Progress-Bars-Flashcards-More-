@@ -1,0 +1,48 @@
+html,body{margin:0;
+padding:0;
+}
+:root{
+    --bg-words:#5134ff;
+
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+    
+   
+   
+}
+h1:after{
+    content:"";
+    animation:6s  swap infinite ;
+    background:var(--bg-words);
+    padding:10px;
+    margin-left:5px;
+    color:white;
+    border-radius:5px;
+   
+  
+    
+}
+@keyframes swap{
+    0%{
+        content:"coding";
+    }
+    25%{
+        content:"researching";
+    }
+    50%{
+        content:"hot bangs";
+    }
+    75%{
+        content:"hangouts which in think i need to stop";
+    }
+    
+    100%{
+        content:"my self";
+    }
+}
